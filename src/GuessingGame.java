@@ -5,7 +5,6 @@ public class GuessingGame {
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
         int correctNumber = new Random().nextInt(100);
-        System.out.println(correctNumber);
         int attemptNumber;
 
         for (int i = 0; i < 5; i++) {
