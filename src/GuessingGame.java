@@ -8,7 +8,7 @@ public class GuessingGame {
         int attemptNumber;
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Enter your attempt:");
+            System.out.println("Enter a number between 0 and 100, until five attempts:");
             attemptNumber = reading.nextInt();
 
             if (attemptNumber == correctNumber){
